@@ -1,0 +1,770 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+header
+{
+    display: flex;
+}
+header .logo
+{
+    width: 270px;
+    margin-top: 9px;
+    margin-left: 270px;
+    cursor: pointer;
+   
+}
+
+/*positionnement des éléments de la navbare*/
+nav ul
+{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 12px;
+}
+
+/*style des éléments de la navbarre*/
+nav ul li
+{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 13px;
+    
+}
+
+/*empecher le changement de couleur après le click*/
+nav ul li a 
+{
+    text-decoration: none;
+    color: #747474;
+}
+
+/*colorer après passage de la souris*/
+nav ul li a:hover
+{
+    color: #00b39b;
+}
+
+/*emplacement de l'image (étoile)*/
+.main img 
+{
+    margin-left: 740px;
+    margin-top: 50px;
+}
+
+/*titre des paragraphes*/
+.main h1
+{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 34px;
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main__text-1
+{
+    
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: #747474;
+    font-size: 16px;
+    margin-left: 270px;
+    margin-top: 60px;
+    text-align: justify;
+    line-height: 30px;
+    
+}
+
+
+.main__text-2
+{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    color: #747474;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 60px;
+    text-align: justify;
+    line-height: 30px;
+   
+}
+
+/*postionnement des éléments flexbox-1*/
+
+
+/*la box parent*/
+.main-container-1
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 230px;
+    justify-content: center;   
+}
+.main-container-1 h2
+{
+    font-family:'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/*les box enfants*/
+
+.blocks
+{
+    color: white;
+    width: 315px;
+    padding: 10px;
+    
+
+}
+
+.patients
+{
+    background-color: #00C3A5;
+    height: 350px;
+    margin-top: 25px;
+    border-radius: 10px;   
+   
+}
+.patients h2
+{
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+/*emplacement de l'icone du block patients*/
+.blocks .patients img
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/*emplacement du lien du lien Choose country du bloc patients*/
+.blocks .patients a
+{
+    margin-top: 900px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.doctors
+{
+    background-color: #3D83DF;
+    height: 350px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/*emplacement de l'icone du bloc doctors*/
+
+.blocks .doctors img
+{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+/*emplacement du lien Choose country du bloc doctors*/
+
+.blocks .doctors a
+{
+    margin-top: 900px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+ .doctors h2
+ {
+    font-size: 26px;
+    margin-left: 30px;
+ }
+
+.clinics
+{
+    background-color: #1B2734;
+    height: 350px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/*emplacement de l'icone du bloc clinic*/
+
+.blocks .clinics img
+{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+/*emplacment des liens du bloc clinics 2 to 20 et More than 2 specialists specialists*/
+.blocks .clinics a
+{
+    margin-top: 900px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.clinics h2
+{
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.blocks p
+{
+    
+    font-family:'Work Sans', sans-serif;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+/*stylisation du blocque main-container-2*/
+
+/*la box parent*/
+.main-container-2
+{
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 270px;  
+}
+
+/*le paragraphe texte-3*/
+.main-container-2 p
+{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #00b39b;
+    font-family:'Work Sans', sans-serif;
+    width: 250px;
+    
+}
+
+/*line-1*/
+
+.bloc_test
+{
+    margin-left: -40px;
+    font-size: 16px;
+}
+.line-1 ul
+{
+    display: flex;
+}
+.line-1 ul li 
+{
+    list-style: none;
+}
+.line-1 ul li a
+{
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 5px;
+}
+.line-2 ul
+{
+    display: flex;
+}
+.line-2 ul li 
+{
+    list-style: none;
+}
+.line-2 ul li a
+{
+    text-decoration: none;
+    font-size: 5px;
+   
+}
+
+
+/*la stylisation du containeur 3 et ses différents blocs*/
+.main-container-3
+{
+    display: flex;
+    background-color: #DAF7F6;
+    height: 600px;
+    margin-top: 50px;
+    
+    
+}
+
+.text-4 h1
+{
+   
+    
+    margin-top: 60px;
+    font-size: 34px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 44px;
+    color: #00b39b;
+    margin-left: 270px;
+    width: 300px;
+}
+
+.text-5 h2
+{
+    
+    font-size: 14px;
+    font-style: normal;
+    color: #747474;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 270px;
+    width: 400px;
+   
+}
+
+/*.big-etoile img
+
+{
+    width: 400px;
+    height: 400px;
+    margin-top: 270px;
+    margin-left:-500px;
+    
+}*/
+
+
+.bloc-1
+{
+    
+    width: 230px;
+    height: 250px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+.bloc-2
+{
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 230px;
+    height: 250px;
+    background-color: #FFFFFF;
+   
+}
+
+
+.bloc-3
+{
+    width: 230px;
+    height: 250px;
+    margin-top: 310px;
+    margin-left: -480px;
+    background-color:#FFFFFF
+    
+}
+
+.bloc-4
+{
+    width: 230px;
+    height: 250px;
+    margin-top: 285px;
+    margin-left: 20px;
+    
+    background-color: #FFFFFF;
+}
+
+/*le contenu des 4 blocs*/
+
+.flag
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.visit
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+.bloc-1 h4
+{
+    color: #00b39b;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-6 p
+{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.bloc-2 h4
+{
+    color: #00b39b;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-7 p
+{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.bloc-3 h4
+{
+    color: #00b39b;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.text-8 p
+{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.bloc-4 h4
+{
+    color: #00b39b;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+.text-9 p
+{
+    margin-top: 15px;
+    color: #747474;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*stylisation des éléments du containeur-4*/
+
+.main-containeur-4
+{
+    display: flex;
+    /*justify-content: center;*/
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+
+.text-10 p
+{
+    color: #00b39b;
+    font-size: 30px;
+    line-height: 39px;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 570px;
+}
+
+.text-11 p
+{
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 180px;
+    margin-left: -400px;
+}
+
+/*dispositions des 6 premières villes*/
+.row
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 15px;
+    height: 350px;
+    text-decoration: none;
+
+}
+
+
+/*disposition des 2 dernières villes*/
+
+.row-2
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 270px;
+    margin-top: 10px;
+    height: 350px;
+   
+}
+
+.row div
+{
+    cursor: pointer;
+}
+
+.row-2 div
+{
+    cursor: pointer;
+}
+
+
+/*stylisation des liens et boutons dans les différentes villes*/
+.col-1
+{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+.col-2
+{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.col-3
+{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+ .col-1 a
+ {
+    text-decoration: none;
+    color: #747474;
+    margin-left: 20px;
+    
+   
+ }
+
+ .col-2 a
+ {
+    text-decoration: none;
+    color: #747474;
+    margin-left: 20px;
+   
+ }
+
+ .col-3 a
+ { 
+    text-decoration: none;
+    color: #747474;
+    margin-left: 20px;
+    
+ }
+
+ .col-1 input
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+
+ .col-2 input
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+
+ .col-3 input 
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+
+ .col-2 button
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 90px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+
+ .col-1 button
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+ .col-3 button
+ {
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+ }
+
+ /* style de la partie Join Us*/
+
+ .main-containeur-5
+ {
+    display: flex;
+    height: 200px;
+    margin-bottom: 90px;
+
+ }
+ .text-12
+ {
+    color: #333333;
+    margin-top: 80px;
+    margin-left: 550px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: bold;
+
+ }
+
+ .last-button input
+ {
+    margin-top: 140px;
+    margin-left: -300px;
+    background-color: #3D83DF;
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    font-size: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 200px;
+    padding: 12px;
+ }
+
+ /*le Footer*/
+
+ .footer
+ {
+   display: flex;
+   
+ }
+.part-1
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ababab;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-left: 400px;
+    margin-bottom: 20px;
+
+}
+
+.part-1 a
+{
+    text-decoration: none;
+    color: #3d83df;
+    
+}
+
+.part-2
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ababab;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
